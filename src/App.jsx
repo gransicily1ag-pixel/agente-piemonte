@@ -792,7 +792,7 @@ if (!utente) {
       <div className="bg-white rounded-3xl shadow-xl p-8 w-full max-w-md">
 
         <h1 className="text-3xl font-black mb-2">
-          Agente
+          CRM Clienti
         </h1>
 
         <p className="text-gray-500 mb-6">
