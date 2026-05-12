@@ -1,0 +1,1508 @@
+[
+  {
+    "nome": "Torino Sud - 1",
+    "mapsUrl": "https://www.google.com/maps/dir/PIAZZA+POLONIA+0/A,+TORINO/PIAZZA+MUZIO+SCEVOLA+2,+TORINO/VIA+MADAMA+CRISTINA+163/A,+TORINO/VIA+NIZZA+86+D,+TORINO/C.SO+DANTE+60/A,+TORINO/VIA+NIZZA+60/D,+TORINO/CORSO+RAFFAELLO+18/A,+TORINO/Viale+Medaglie+d'Oro,+88,+TORINO/VIA+NIZZA+193/1,+TORINO",
+    "clienti": [
+      {
+        "nome": "CJBO CHIOSCO METROPOLITANO DI ALOISIO LARA",
+        "indirizzo": "PIAZZA POLONIA 0/A, TORINO",
+        "lat": 45.0361456,
+        "lng": 7.6752018
+      },
+      {
+        "nome": "FRA.LO.DA SRL ROYAL CLUB",
+        "indirizzo": "PIAZZA MUZIO SCEVOLA 2, TORINO",
+        "lat": 45.0403234,
+        "lng": 7.6795522
+      },
+      {
+        "nome": "ALCENTO 63 DI DANIELA STIGLIANO ",
+        "indirizzo": "VIA MADAMA CRISTINA 163/A, TORINO",
+        "lat": 45.0434059,
+        "lng": 7.672982
+      },
+      {
+        "nome": "CAFFETTERIA EDDA DI IOFFRIDA LEONE",
+        "indirizzo": "VIA NIZZA 86 D, TORINO",
+        "lat": 45.0457709,
+        "lng": 7.6723184
+      },
+      {
+        "nome": "BAR REALE DI MAROTTA VINCENZO",
+        "indirizzo": "C.SO DANTE 60/A, TORINO",
+        "lat": 45.0471662,
+        "lng": 7.6738625
+      },
+      {
+        "nome": "IL NOSTRO BAR DI MERINO MARCO",
+        "indirizzo": "VIA NIZZA 60/D, TORINO",
+        "lat": 45.048598,
+        "lng": 7.6734126
+      },
+      {
+        "nome": "LA VIE EN ROSE DI DIEGO DI DIO",
+        "indirizzo": "CORSO RAFFAELLO 18/A, TORINO",
+        "lat": 45.0514969,
+        "lng": 7.6780294
+      },
+      {
+        "nome": "CHIOSCHETTO DEL VALENTINO ",
+        "indirizzo": "Viale Medaglie d'Oro, 88, TORINO",
+        "lat": 45.0505388,
+        "lng": 7.6820369
+      },
+      {
+        "nome": "CAPLIN SAS CAPLIN BAR TABACCHI",
+        "indirizzo": "VIA NIZZA 193/1, TORINO",
+        "lat": 45.0576255,
+        "lng": 7.6770809
+      }
+    ]
+  },
+  {
+    "nome": "Torino Sud - 2",
+    "mapsUrl": "https://www.google.com/maps/dir/CORSO+UNIONE+SOVIETICA+612/15,+TORINO/CORSO+UNIONE+SOVIETICA+577,+TORINO/VIA+SAN+GIACOMO,+BEINASCO/STRADA+TORINO+17/C,+BEINASCO",
+    "clienti": [
+      {
+        "nome": "ALCALISE CAFFETTERIA DI ROLLO CONCETTA",
+        "indirizzo": "CORSO UNIONE SOVIETICA 612/15, TORINO",
+        "lat": 45.0118688,
+        "lng": 7.6185974
+      },
+      {
+        "nome": "CAFFETTERIA GLUK DI ARRUZZA ANTONIO",
+        "indirizzo": "CORSO UNIONE SOVIETICA 577, TORINO",
+        "lat": 45.0147452,
+        "lng": 7.6268756
+      },
+      {
+        "nome": "BAR LILLY AND FAMILY PRUITI CIARELLO LILIANA",
+        "indirizzo": "VIA SAN GIACOMO, BEINASCO",
+        "lat": 45.029485,
+        "lng": 7.595829
+      },
+      {
+        "nome": "GELO BAR KEBAB DI YAPICI VELI",
+        "indirizzo": "STRADA TORINO 17/C, BEINASCO",
+        "lat": 45.0219679,
+        "lng": 7.5829538
+      }
+    ]
+  },
+  {
+    "nome": "Torino Sud - 3",
+    "mapsUrl": "https://www.google.com/maps/dir/VIA+VEROLENGO+17/15A,+TORINO/VIA+STRADELLA+198/D,+TORINO/VIA+VIBO+56/A,+TORINO/VIA+CAMBIANO+3,+TORINO/CORSO+ENRICO+GAMBA+44/C,+TORINO",
+    "clienti": [
+      {
+        "nome": "GA.RI SNC ",
+        "indirizzo": "VIA VEROLENGO 17/15A, TORINO",
+        "lat": 45.0951142,
+        "lng": 7.6598278
+      },
+      {
+        "nome": "LA VUCCIRIA CAFFETTERIA PASTICCERIA",
+        "indirizzo": "VIA STRADELLA 198/D, TORINO",
+        "lat": 45.1019539,
+        "lng": 7.6667904
+      },
+      {
+        "nome": "CHIOSCO ANNA E LUCA SNC ",
+        "indirizzo": "VIA VIBO 56/A, TORINO",
+        "lat": 45.0957727,
+        "lng": 7.6749253
+      },
+      {
+        "nome": "CLAB FITNESS SSD SRL ",
+        "indirizzo": "VIA CAMBIANO 3, TORINO",
+        "lat": 45.0923903,
+        "lng": 7.6760195
+      },
+      {
+        "nome": "L ANCORA SAS DI MARTINI SERENA",
+        "indirizzo": "CORSO ENRICO GAMBA 44/C, TORINO",
+        "lat": 45.0859602,
+        "lng": 7.6696579
+      }
+    ]
+  },
+  {
+    "nome": "Torino Sud - 4",
+    "mapsUrl": "https://www.google.com/maps/dir/CORSO+SAVONA+12/A,+VILLASTELLONE/CORSO+SAVONA+60,+VILLASTELLONE/VIA+COMO+2,+VILLASTELLONE",
+    "clienti": [
+      {
+        "nome": "BAR ANGELINA DAL 1977 VERDUCI SAS DI MALLAMACI F&C",
+        "indirizzo": "CORSO SAVONA 12/A, VILLASTELLONE",
+        "lat": 44.9362151,
+        "lng": 7.72838
+      },
+      {
+        "nome": "ASD VILLASPORT ",
+        "indirizzo": "CORSO SAVONA 60, VILLASTELLONE",
+        "lat": 44.9381048,
+        "lng": 7.7268819
+      },
+      {
+        "nome": "BAR ROSA BEACH DI LUCATO FERDINANDO & C",
+        "indirizzo": "VIA COMO 2, VILLASTELLONE",
+        "lat": 44.9169805,
+        "lng": 7.741965
+      }
+    ]
+  },
+  {
+    "nome": "Torino Sud - 5",
+    "mapsUrl": "https://www.google.com/maps/dir/PIAZZA+DELLA+CONSOLATA+3/F,+TORINO/VIA+GARIBALDI+27,+TORINO/VIA+SAN+FRANCESCO+D+ASSISI+18,+TORINO/VIA+BERTOLA+17,+TORINO/VIA+XX+SETTEMBRE+60/A,+TORINO/VIA+PO+4++,+TORINO/PIAZZETTA+REALE+1+,+TORINO/Via+Bertola,+39/D,+TORINO/VIA+OTTAVIO+ASSAROTTI+8/B,+TORINO/VIA+PRINCIPI+D'ACAJA+25/B,+TORINO",
+    "clienti": [
+      {
+        "nome": "IL BACARO PANE E VINO DI SCARPARO ROSARI",
+        "indirizzo": "PIAZZA DELLA CONSOLATA 3/F, TORINO",
+        "lat": 45.0762497,
+        "lng": 7.6793469
+      },
+      {
+        "nome": "CAFFETTERIA PASTICCERIA ROYCE SRLS ",
+        "indirizzo": "VIA GARIBALDI 27, TORINO",
+        "lat": 45.0732028,
+        "lng": 7.6792666
+      },
+      {
+        "nome": "CAPPUCCINO ROSSO SAS DI GORIANZ ALESSIO E C.",
+        "indirizzo": "VIA SAN FRANCESCO D ASSISI 18, TORINO",
+        "lat": 45.0709031,
+        "lng": 7.6795188
+      },
+      {
+        "nome": "CAFFE GARDENIA DI MARCO POLO",
+        "indirizzo": "VIA BERTOLA 17, TORINO",
+        "lat": 45.0701749,
+        "lng": 7.6806485
+      },
+      {
+        "nome": "ORBYTA FOOD SRL ",
+        "indirizzo": "VIA XX SETTEMBRE 60/A, TORINO",
+        "lat": 45.0697661,
+        "lng": 7.6823924
+      },
+      {
+        "nome": "MI DRINK & COFFE DI ANTONIO DE LUCA",
+        "indirizzo": "VIA PO 4  , TORINO",
+        "lat": 45.0696167,
+        "lng": 7.6876742
+      },
+      {
+        "nome": "MONTELEONE GROUP",
+        "indirizzo": "PIAZZETTA REALE 1 , TORINO",
+        "lat": 45.0726707,
+        "lng": 7.6861479
+      },
+      {
+        "nome": "CAFFE 39 DI LUCA MASTROPIETRO",
+        "indirizzo": "Via Bertola, 39/D, TORINO",
+        "lat": 45.0724147,
+        "lng": 7.6742849
+      },
+      {
+        "nome": "BAR CUORE & CAFFE DI LACERENZA DANIELA",
+        "indirizzo": "VIA OTTAVIO ASSAROTTI 8/B, TORINO",
+        "lat": 45.0736896,
+        "lng": 7.6742085
+      },
+      {
+        "nome": "CAFFE DEL METRO DI BOVOLENTA IVANO",
+        "indirizzo": "VIA PRINCIPI D'ACAJA 25/B, TORINO",
+        "lat": 45.0755281,
+        "lng": 7.6640567
+      },
+      {
+        "nome": "NELIDA DI CARLO CANTORE ",
+        "indirizzo": "PIAZZALE DUCA D'AOSTA, 20/B, TORINO",
+        "lat": 45.0625903,
+        "lng": 7.6633976
+      },
+      {
+        "nome": "WITH LOVE CAFE DI TEDDY ANEZ MORENO",
+        "indirizzo": "C.so Vittorio Emanuele II, 73g, TORINO",
+        "lat": 45.0641275,
+        "lng": 7.6741694
+      },
+      {
+        "nome": "CAFE NICE 23 DI ZOTA LILIANA MIHAELA",
+        "indirizzo": "VIA NIZZA 23/F, TORINO",
+        "lat": 45.0591533,
+        "lng": 7.6779941
+      },
+      {
+        "nome": "BAR SAN MARCO DI LORENTI SALVATORE",
+        "indirizzo": "C.SO VITTORIO EMANUELE II 38, TORINO",
+        "lat": 45.0613484,
+        "lng": 7.6835198
+      }
+    ]
+  },
+  {
+    "nome": "Torino Sud - 6",
+    "mapsUrl": "https://www.google.com/maps/dir/CORSO+RACCONIGI+87,+TORINO/VIA+FRASSINETO+4,+TORINO/VIA+DANTE+DI+NANNI+50,+TORINO/VIA+MONGINEVRO+2/D,+TORINO/VIA+MONGINEVRO+2/D,+TORINO/C.so+Vittorio+Emanuele+II,+131,+TORINO/CORSO+FRANCIA+54,+TORINO/PIAZZA+BERNINI+1+A,+TORINO/Piazza+Bernini,+1A+,+TORINO/CORSO+SVIZZERA+29+H,+TORINO",
+    "clienti": [
+      {
+        "nome": "ELLEGI 3 SRL ",
+        "indirizzo": "CORSO RACCONIGI 87, TORINO",
+        "lat": 45.0670625,
+        "lng": 7.6455135
+      },
+      {
+        "nome": "IL RISTORO DEL CAMPIONE SRLS ORANGE COFFEE",
+        "indirizzo": "VIA FRASSINETO 4, TORINO",
+        "lat": 45.0690084,
+        "lng": 7.6454186
+      },
+      {
+        "nome": "ENOTECA 50 SRLS ",
+        "indirizzo": "VIA DANTE DI NANNI 50, TORINO",
+        "lat": 45.0677644,
+        "lng": 7.6519234
+      },
+      {
+        "nome": "CAFFE LEONARDO DI MOZZONE PAOLO SAS",
+        "indirizzo": "VIA MONGINEVRO 2/D, TORINO",
+        "lat": 45.0654885,
+        "lng": 7.6544874
+      },
+      {
+        "nome": "CAFFE LEONARDO DI FATOS YILDIZ",
+        "indirizzo": "VIA MONGINEVRO 2/D, TORINO",
+        "lat": 45.0654885,
+        "lng": 7.6544874
+      },
+      {
+        "nome": "U ROAST ITALIA SRL ",
+        "indirizzo": "C.so Vittorio Emanuele II, 131, TORINO",
+        "lat": 45.0699592,
+        "lng": 7.6579268
+      },
+      {
+        "nome": "ZERO CAFFE DI SPROVIERO FRANCESCO",
+        "indirizzo": "CORSO FRANCIA 54, TORINO",
+        "lat": 45.0763804,
+        "lng": 7.6596837
+      },
+      {
+        "nome": "ILSA SNC DI ROCCARO ISABEL",
+        "indirizzo": "PIAZZA BERNINI 1 A, TORINO",
+        "lat": 45.0764723,
+        "lng": 7.6563307
+      },
+      {
+        "nome": "CAFFE NORMA SAS DI RUSSO MARIO E C.",
+        "indirizzo": "Piazza Bernini, 1A , TORINO",
+        "lat": 45.0764723,
+        "lng": 7.6563307
+      },
+      {
+        "nome": "SWISS LOUNGE CAFE SRL ",
+        "indirizzo": "CORSO SVIZZERA 29 H, TORINO",
+        "lat": 45.0788377,
+        "lng": 7.6497014
+      },
+      {
+        "nome": "CAFFE RACCONIGI DI LUCA E LAURA SNC",
+        "indirizzo": "CORSO RACCONIGI 13, TORINO",
+        "lat": 45.0743512,
+        "lng": 7.648305
+      },
+      {
+        "nome": "CAFFETTERIA DEL CORSO DI LO BUE SIMONETTA",
+        "indirizzo": "VIA CARRERA 2, TORINO",
+        "lat": 45.079937,
+        "lng": 7.6372981
+      },
+      {
+        "nome": "CAFFETTERIA EROS DI ZUCCHELLI GIULIA",
+        "indirizzo": "VIA CARAGLIO 34/B, TORINO",
+        "lat": 45.0647044,
+        "lng": 7.6420287
+      },
+      {
+        "nome": "CAFFETTERIA DIONISIO DI DIONISIO M. PATRIZIA",
+        "indirizzo": "CORSO TRAPANI 147/A, TORINO",
+        "lat": 45.0641815,
+        "lng": 7.6367801
+      }
+    ]
+  },
+  {
+    "nome": "Torino Sud - 7",
+    "mapsUrl": "https://www.google.com/maps/dir/VIA+DOMENICO+CIMAROSA+17,+NICHELINO/VIA+STUPINIGI+72/C,+NICHELINO/VIA+PONCHIELLI+22/B,+NICHELINO/Via+Juvarra+40,+NICHELINO/VIA+TORINO+374,+NICHELINO/VIA+TORINO+36,+NICHELINO/VIA+TORINO+14/C,+NICHELINO/VIA+TORINO+103/A,+NICHELINO/VIA+GIOVANNI+DA+VERRAZZANO+15B,+TORINO/VIA+GOZZANO+29,+NICHELINO",
+    "clienti": [
+      {
+        "nome": "LA CASA DEL PANE DI PALMERI GANDOLFO",
+        "indirizzo": "VIA DOMENICO CIMAROSA 17, NICHELINO",
+        "lat": 45.0001111,
+        "lng": 7.6422316
+      },
+      {
+        "nome": "L'ANGOLO DEL RISTORO DI FERRONE COSTANTINO",
+        "indirizzo": "VIA STUPINIGI 72/C, NICHELINO",
+        "lat": 44.9997449,
+        "lng": 7.6405313
+      },
+      {
+        "nome": "PANETTERIA VECCHIONE S.N.C. DI CLAUDIA E C.",
+        "indirizzo": "VIA PONCHIELLI 22/B, NICHELINO",
+        "lat": 44.9987253,
+        "lng": 7.6433642
+      },
+      {
+        "nome": "ANGELS BAR DI CULEA CRISTIANA",
+        "indirizzo": "Via Juvarra 40, NICHELINO",
+        "lat": 44.9988123,
+        "lng": 7.6445159
+      },
+      {
+        "nome": "CAFFETTERIA VALU ",
+        "indirizzo": "VIA TORINO 374, NICHELINO",
+        "lat": 44.9976272,
+        "lng": 7.6501848
+      },
+      {
+        "nome": "FIUMARA GIUSEPPE CAFFETTERIA PASTICCERIA",
+        "indirizzo": "VIA TORINO 36, NICHELINO",
+        "lat": 44.9914657,
+        "lng": 7.6424881
+      },
+      {
+        "nome": "LATTI S CAFE DI LATTANZIO PIERO",
+        "indirizzo": "VIA TORINO 14/C, NICHELINO",
+        "lat": 44.9914657,
+        "lng": 7.6424881
+      },
+      {
+        "nome": "REBECCA'S COFFEE DI LI VELI EVA",
+        "indirizzo": "VIA TORINO 103/A, NICHELINO",
+        "lat": 44.9914657,
+        "lng": 7.6424881
+      },
+      {
+        "nome": "RISTORANTE CASA PONTE CINZIA E ANDY DI VENERE CINZIA",
+        "indirizzo": "VIA GIOVANNI DA VERRAZZANO 15B, TORINO",
+        "lat": 44.9854231,
+        "lng": 7.6389417
+      },
+      {
+        "nome": "CAFFE OLTRE STAZIONE DI D'AMELIO LUCA",
+        "indirizzo": "VIA GOZZANO 29, NICHELINO",
+        "lat": 44.9830931,
+        "lng": 7.641719
+      },
+      {
+        "nome": "CAFFETTERIA AMY&EMI VALERIK SNC DI AMABILE ED EMILIA MAURIZIO",
+        "indirizzo": "VIA SESTRIERE 22/24, GARINO",
+        "lat": 44.9783942,
+        "lng": 7.6263862
+      },
+      {
+        "nome": "PASTICCERIA GRANI DI FRANCESCA, IGNAZIO & ROSARIA PROVENZANO",
+        "indirizzo": "VIA SESTRIERE 43, VINOVO",
+        "lat": 44.9783942,
+        "lng": 7.6263862
+      },
+      {
+        "nome": "VILLAGE CAFE SNC DI DEIANA LUCA E FAIENZA SABRINA",
+        "indirizzo": "VIA STUPINIGI 25, VINOVO",
+        "lat": 44.961948,
+        "lng": 7.6230828
+      },
+      {
+        "nome": "RISTORANTE SILVANA DI PERGOLA SILVANA E ADRIANA & C SNC",
+        "indirizzo": "VIA DEL MARE 10, PIOBESI TORINESE",
+        "lat": 44.9282276,
+        "lng": 7.6233061
+      }
+    ]
+  },
+  {
+    "nome": "Torino Sud - 8",
+    "mapsUrl": "https://www.google.com/maps/dir/LUNGO+PO+ANTONELLI+181,+TORINO/VIALE+SUOR+GIOVANNA+FRANCESCA+MICHELOTTI+290,+TORINO,+TORINO/C.SO+REGIO+PARCO+87/B,+TORINO/CORSO+CHIETI+2/F,+TORINO/VIA+OROPA+59/B,+TORINO/CORSO+CASALE+160/G,+TORINO",
+    "clienti": [
+      {
+        "nome": "BAR GIARDINO SAS DI MACRI TERESA",
+        "indirizzo": "LUNGO PO ANTONELLI 181, TORINO",
+        "lat": 45.074786,
+        "lng": 7.7261794
+      },
+      {
+        "nome": "LA FAMIGLIARE SUL PO S.R.L. SPORTIVA DILETTANTISTICA",
+        "indirizzo": "VIALE SUOR GIOVANNA FRANCESCA MICHELOTTI 290, TORINO, TORINO",
+        "lat": 45.0805662,
+        "lng": 7.7254241
+      },
+      {
+        "nome": "PETIT CAFE ",
+        "indirizzo": "C.SO REGIO PARCO 87/B, TORINO",
+        "lat": 45.0847295,
+        "lng": 7.7114756
+      },
+      {
+        "nome": "BAR DI ALESSANDRO SCHIRINZI ",
+        "indirizzo": "CORSO CHIETI 2/F, TORINO",
+        "lat": 45.0728467,
+        "lng": 7.7142383
+      },
+      {
+        "nome": "CAFFE BLACK E WHITE DI GIROLAMO LAURA",
+        "indirizzo": "VIA OROPA 59/B, TORINO",
+        "lat": 45.0720452,
+        "lng": 7.7145889
+      },
+      {
+        "nome": "LA VIA DELLA SETA DI YU YONG MATTEO",
+        "indirizzo": "CORSO CASALE 160/G, TORINO",
+        "lat": 45.0690276,
+        "lng": 7.7195897
+      }
+    ]
+  },
+  {
+    "nome": "Torino Sud - 9",
+    "mapsUrl": "https://www.google.com/maps/dir/VIA+REGNO+UNITO+7/B,+ORBASSANO/PIAZZA+UMBERTO+PRIMO+9,+ORBASSANO",
+    "clienti": [
+      {
+        "nome": "BREAD & COFFE DI CHEPTANARU MARIANA",
+        "indirizzo": "VIA REGNO UNITO 7/B, ORBASSANO",
+        "lat": 45.0118001,
+        "lng": 7.5442485
+      },
+      {
+        "nome": "FAMILY CAFFE DI DIAC MARIA TERESA",
+        "indirizzo": "PIAZZA UMBERTO PRIMO 9, ORBASSANO",
+        "lat": 45.0072788,
+        "lng": 7.5368996
+      }
+    ]
+  },
+  {
+    "nome": "Torino Sud - 10",
+    "mapsUrl": "https://www.google.com/maps/dir/CORSO+ROMA+6,+MONCALIERI/C.SO+ROMA+37,+MONCALIERI/VIA+ONORATO+VIGLIANI+187,+TORINO/VIA+ONORATO+VIGLIANI+161,+TORINO/VIA+ONORATO+VIGLIANI+136/B,+TORINO/Via+Modesto+Panetti,+1,+TORINO/CORSO+TRAIANO+90/B,+TORINO/VIA+PIO+VII,84/A,+TORINO/VIA+PIO+VII+84/A,+TORINO/VIA+PANNUNZIO+1,+TORINO",
+    "clienti": [
+      {
+        "nome": "BAR L’ALTRO MONDO DI PERRONE GIUSEPPE",
+        "indirizzo": "CORSO ROMA 6, MONCALIERI",
+        "lat": 45.0120749,
+        "lng": 7.6653051
+      },
+      {
+        "nome": "IL PICCOLO BAR DI LEMMA V.",
+        "indirizzo": "C.SO ROMA 37, MONCALIERI",
+        "lat": 45.0120749,
+        "lng": 7.6653051
+      },
+      {
+        "nome": "CAFFETTERIA VIGLIANI CAMMARATA ROSAMARIA",
+        "indirizzo": "VIA ONORATO VIGLIANI 187, TORINO",
+        "lat": 45.0176859,
+        "lng": 7.655495
+      },
+      {
+        "nome": "BAR PAVONE DI PAVONE FABIO",
+        "indirizzo": "VIA ONORATO VIGLIANI 161, TORINO",
+        "lat": 45.0176753,
+        "lng": 7.6527274
+      },
+      {
+        "nome": "GRAN CAFFE R.G.O. SRLS",
+        "indirizzo": "VIA ONORATO VIGLIANI 136/B, TORINO",
+        "lat": 45.0171501,
+        "lng": 7.6488305
+      },
+      {
+        "nome": "COOPERATIVA SOCIALE MIRAFIORI LA LOCANDA NEL PARCO",
+        "indirizzo": "Via Modesto Panetti, 1, TORINO",
+        "lat": 45.0137174,
+        "lng": 7.6483134
+      },
+      {
+        "nome": "BAR PUNTO E VIRGOLA ",
+        "indirizzo": "CORSO TRAIANO 90/B, TORINO",
+        "lat": 45.0225049,
+        "lng": 7.6479171
+      },
+      {
+        "nome": "GARDEN COFFEE DI BECCIU MARIA",
+        "indirizzo": "VIA PIO VII,84/A, TORINO",
+        "lat": 45.0240812,
+        "lng": 7.6515483
+      },
+      {
+        "nome": "GINCU JANNA GARDEN COFFE",
+        "indirizzo": "VIA PIO VII 84/A, TORINO",
+        "lat": 45.0240812,
+        "lng": 7.6515483
+      },
+      {
+        "nome": "LA LOCOMOTIVA SRL DI FERRERO E C.",
+        "indirizzo": "VIA PANNUNZIO 1, TORINO",
+        "lat": 45.0265383,
+        "lng": 7.6567809
+      },
+      {
+        "nome": "GB201 S.R.L. LA CAFFETTERIA DEL CAMPLUS",
+        "indirizzo": "VIA GIORDANO BRUNO 201 , TORINO",
+        "lat": 45.0303195,
+        "lng": 7.6554931
+      },
+      {
+        "nome": "LE LIDO DI GERACI MARGHERITA",
+        "indirizzo": "CORSO UNIONE SOVIETICA 349/A, TORINO",
+        "lat": 45.0283373,
+        "lng": 7.6420879
+      },
+      {
+        "nome": "LA CAFFETTERIA LR E CC SNC",
+        "indirizzo": "C.SO AGNELLI 100/B, TORINO",
+        "lat": 45.0284627,
+        "lng": 7.6388141
+      },
+      {
+        "nome": "SILO CAFFE RIO SRL",
+        "indirizzo": "CORSO UNIONE SOVIETICA 395/C, TORINO",
+        "lat": 45.0244338,
+        "lng": 7.6377181
+      },
+      {
+        "nome": "BAR FLORIDA S.A.S. DI LAMARCA LAURA E C.",
+        "indirizzo": "CORSO UNIONE SOVIETICA 403, TORINO",
+        "lat": 45.02406,
+        "lng": 7.6374251
+      },
+      {
+        "nome": "EMILY CAFFE DI PETRONZI LUCIA",
+        "indirizzo": "VIA ONORATO VIGLIANI 4, TORINO",
+        "lat": 45.0222055,
+        "lng": 7.6362349
+      },
+      {
+        "nome": "CAFFETTERIA IDEALE DI ZULLO FEDERICA E C.",
+        "indirizzo": "VIA PIOBESI 3/B, TORINO",
+        "lat": 45.0222776,
+        "lng": 7.6426101
+      },
+      {
+        "nome": "MINIMAL CAFE DI VRANCIU SIMONA",
+        "indirizzo": "VIA MARTIRI DELLA LIBERTA 27/E, NICHELINO",
+        "lat": 45.0021581,
+        "lng": 7.6590168
+      }
+    ]
+  },
+  {
+    "nome": "Torino Sud - 11",
+    "mapsUrl": "https://www.google.com/maps/dir/STRADA+DELLA+PRONDA+127,+TORINO/VIA+RIETI+40/C,+TORINO/CORSO+FRANCIA+345/C,+TORINO/VIA+FIDIA+23+A,+TORINO/Via+Luigi+Ferdinando+Marsigli,+TORINO/VIA+MONGINEVRO+201,+TORINO/VIA+LANCIA+121/C,+TORINO/VIA+LANCIA+93+A,+TORINO/Via+Santa+Maria+Mazzarello,+76+A,+TORINO/VIA+MONGINEVRO+249,+TORINO",
+    "clienti": [
+      {
+        "nome": "RISTORANTE SCACCO MATTO F.LLI TAMBURI SNC",
+        "indirizzo": "STRADA DELLA PRONDA 127, TORINO",
+        "lat": 45.064991,
+        "lng": 7.6100537
+      },
+      {
+        "nome": "MARINELLA CAFE DI CESINO MARIA",
+        "indirizzo": "VIA RIETI 40/C, TORINO",
+        "lat": 45.0706617,
+        "lng": 7.6094011
+      },
+      {
+        "nome": "MONT BLANC SAS DI DIMOPOLI LAURA E C.",
+        "indirizzo": "CORSO FRANCIA 345/C, TORINO",
+        "lat": 45.0740715,
+        "lng": 7.613073
+      },
+      {
+        "nome": "HELGAS BAR CAFFETTERIA ",
+        "indirizzo": "VIA FIDIA 23 A, TORINO",
+        "lat": 45.0721976,
+        "lng": 7.6216524
+      },
+      {
+        "nome": "TRECATE CAFE DI CATALINA ENACHE",
+        "indirizzo": "Via Luigi Ferdinando Marsigli, TORINO",
+        "lat": 45.0703101,
+        "lng": 7.6279719
+      },
+      {
+        "nome": "BAR M&M SNC DI MARCONE MARCELLO E MARCONE MAURIZIO",
+        "indirizzo": "VIA MONGINEVRO 201, TORINO",
+        "lat": 45.0641435,
+        "lng": 7.6274109
+      },
+      {
+        "nome": "OSTERIA MAMA MIA DI FASULO M. E C. SNC",
+        "indirizzo": "VIA LANCIA 121/C, TORINO",
+        "lat": 45.0625029,
+        "lng": 7.6285109
+      },
+      {
+        "nome": "CAFFE DEL PARCO SNC DI GIARDINO D. E C.",
+        "indirizzo": "VIA LANCIA 93 A, TORINO",
+        "lat": 45.0620295,
+        "lng": 7.6327036
+      },
+      {
+        "nome": "PIROM SAS DI SIGNORINO YARI & C",
+        "indirizzo": "Via Santa Maria Mazzarello, 76 A, TORINO",
+        "lat": 45.0595932,
+        "lng": 7.626974
+      },
+      {
+        "nome": "VANILLE S.N.C DI MIALE RITA E C.",
+        "indirizzo": "VIA MONGINEVRO 249, TORINO",
+        "lat": 45.06441,
+        "lng": 7.6208305
+      },
+      {
+        "nome": "OPUS GROUP S.R.L.S. - PIZZERIA MARO",
+        "indirizzo": "VIA VALENTINO CARRERA 149, TORINO",
+        "lat": 45.0802816,
+        "lng": 7.619989
+      },
+      {
+        "nome": "PANIFICIO 2000 SNC DI CHIANTIA GAETANO & C",
+        "indirizzo": "VIA PIETRO COSSA 113/BIS, TORINO",
+        "lat": 45.082505,
+        "lng": 7.6240485
+      },
+      {
+        "nome": "DOLCI TENTAZIONI DI GIANASSO PATRIZIA",
+        "indirizzo": "VIA NICOMEDE BIANCHI 62/G, TORINO",
+        "lat": 45.0820858,
+        "lng": 7.6319671
+      },
+      {
+        "nome": "LU.LU. SNC DI LUCIELLI C. E LUCIELLI L.",
+        "indirizzo": "VIA CAPELLI 76/B, TORINO",
+        "lat": 45.0814599,
+        "lng": 7.6344124
+      },
+      {
+        "nome": "CAFFE METROPOLITAN DI CORDERA VITTORIO",
+        "indirizzo": "VIA CARRERA 50, TORINO",
+        "lat": 45.0800662,
+        "lng": 7.6320087
+      },
+      {
+        "nome": "BAR RISTORANTE CAMPO VOLO DI ROBERTO FOCHI",
+        "indirizzo": "Strada della Berlia 500, TORINO",
+        "lat": 45.0864521,
+        "lng": 7.6103698
+      }
+    ]
+  },
+  {
+    "nome": "Torino Sud - 12",
+    "mapsUrl": "https://www.google.com/maps/dir/CORSO+SAVONA+22,+MONCALIERI/VIALE+DEL+CASTELLO+48,+MONCALIERI/STRADA+VALLERE+20,+MONCALIERI/STRADA+STUPINIGI+45,+MONCALIERI/STRADA+CARIGNANO+74,+MONCALIERI/VIA+POSTIGLIONE+22/A,+MONCALIERI",
+    "clienti": [
+      {
+        "nome": "CIT BAR DI CHIARETTA NADIA",
+        "indirizzo": "CORSO SAVONA 22, MONCALIERI",
+        "lat": 44.9958083,
+        "lng": 7.6874371
+      },
+      {
+        "nome": "CAFFETTERIA DEI FIORI SNC DI SCIVOLI MONICA E IZZO ANNA",
+        "indirizzo": "VIALE DEL CASTELLO 48, MONCALIERI",
+        "lat": 45.0022164,
+        "lng": 7.6860709
+      },
+      {
+        "nome": "FFGD SRLS GOLF CLUB MONCALIERI",
+        "indirizzo": "STRADA VALLERE 20, MONCALIERI",
+        "lat": 45.0065601,
+        "lng": 7.6822263
+      },
+      {
+        "nome": "L'ANGOLO DI STANGA IRINA",
+        "indirizzo": "STRADA STUPINIGI 45, MONCALIERI",
+        "lat": 45.0026539,
+        "lng": 7.6684991
+      },
+      {
+        "nome": "SAS MONCALIERI CARLO & C. ",
+        "indirizzo": "STRADA CARIGNANO 74, MONCALIERI",
+        "lat": 44.9769678,
+        "lng": 7.6700314
+      },
+      {
+        "nome": "BAR SPEED FOOD SAS DI IOCULANO BARBARA",
+        "indirizzo": "VIA POSTIGLIONE 22/A, MONCALIERI",
+        "lat": 44.9754637,
+        "lng": 7.7074613
+      }
+    ]
+  },
+  {
+    "nome": "Torino Sud - 13",
+    "mapsUrl": "https://www.google.com/maps/dir/VIA+BOLOGNA+254,+TORINO/STRADA+SETTIMO+81+A,+TORINO/VIA+IVREA+37/A,+TORINO/VIA+DEGLI+ABETI+10,+TORINO/VIA+MONTANARO+6,+TORINO",
+    "clienti": [
+      {
+        "nome": "BAR PASTICCERIA LORENTI DI LORENTI SAVERIO E C. SNC",
+        "indirizzo": "VIA BOLOGNA 254, TORINO",
+        "lat": 45.0922292,
+        "lng": 7.7139962
+      },
+      {
+        "nome": "IL BARRITO PANUS SORINA",
+        "indirizzo": "STRADA SETTIMO 81 A, TORINO",
+        "lat": 45.1015614,
+        "lng": 7.7248162
+      },
+      {
+        "nome": "PASTICCERIA GELATERIA CRISTAL DI RENA ROSARIA",
+        "indirizzo": "VIA IVREA 37/A, TORINO",
+        "lat": 45.1156618,
+        "lng": 7.7056752
+      },
+      {
+        "nome": "ANEMA E CORE BAR IL QUADRIFOGLIO DI PENNA MARGHERITA& C",
+        "indirizzo": "VIA DEGLI ABETI 10, TORINO",
+        "lat": 45.1301305,
+        "lng": 7.7109894
+      },
+      {
+        "nome": "ARAGOSTA CAFFE RISTORANTE PIZZERIA DI ACOSTA SHEENA",
+        "indirizzo": "VIA MONTANARO 6, TORINO",
+        "lat": 45.0901072,
+        "lng": 7.6938239
+      }
+    ]
+  },
+  {
+    "nome": "Torino Sud - 14",
+    "mapsUrl": "https://www.google.com/maps/dir/VIA+MAZZINI+33,+TORINO/Corso+Moncalieri+5+,+TORINO/PIAZZA+GRAN+MADRE+DI+DIO+8,+TORINO/PIAZZA+GRAN+MADRE+DI+DIO+10/D,+TORINO/VIA+VILLA+DELLA+REGINA+7+,+TORINO/CORSO+CASALE+40,+TORINO/VIA+DEGLI+ARTISTI+31/A,+TORINO/VIA+VANCHIGLIA+9,+TORINO/VIA+SANTA+GIULIA+41/A,+TORINO/LUNGO+DORA+SIENA+101,+TORINO",
+    "clienti": [
+      {
+        "nome": "EX DROGHERIA CAFFE DI BOERO MASSIMILIANO",
+        "indirizzo": "VIA MAZZINI 33, TORINO",
+        "lat": 45.061272,
+        "lng": 7.6887431
+      },
+      {
+        "nome": "CASA CARNERA STEAK RESTAURANT VIA ETTORE DE DONNAZ 17 TORINO",
+        "indirizzo": "Corso Moncalieri 5 , TORINO",
+        "lat": 45.0618444,
+        "lng": 7.697702
+      },
+      {
+        "nome": "WALL PEPPER ALMA SRL",
+        "indirizzo": "PIAZZA GRAN MADRE DI DIO 8, TORINO",
+        "lat": 45.0618952,
+        "lng": 7.6991096
+      },
+      {
+        "nome": "LABORATORIO DEL MARE NASSA SRL",
+        "indirizzo": "PIAZZA GRAN MADRE DI DIO 10/D, TORINO",
+        "lat": 45.0616942,
+        "lng": 7.699416
+      },
+      {
+        "nome": "LA LOCANDA DELLA REGINA VP FOOD SRLS",
+        "indirizzo": "VIA VILLA DELLA REGINA 7 , TORINO",
+        "lat": 45.0617161,
+        "lng": 7.7012667
+      },
+      {
+        "nome": "BAR TABACCHI DI SCOGNAMIGLIO MATTEO",
+        "indirizzo": "CORSO CASALE 40, TORINO",
+        "lat": 45.0647019,
+        "lng": 7.7028944
+      },
+      {
+        "nome": "THE GLOBE CAFFE E RESTAURANT ",
+        "indirizzo": "VIA DEGLI ARTISTI 31/A, TORINO",
+        "lat": 45.0675985,
+        "lng": 7.6996554
+      },
+      {
+        "nome": "CAFFE CESARE DI GENERE SERENA",
+        "indirizzo": "VIA VANCHIGLIA 9, TORINO",
+        "lat": 45.0673401,
+        "lng": 7.6977251
+      },
+      {
+        "nome": "GIULIA E TANCREDI BISTROT THE FAMILY BAR DI ALESSANDRA RIZZA",
+        "indirizzo": "VIA SANTA GIULIA 41/A, TORINO",
+        "lat": 45.0698305,
+        "lng": 7.698568
+      },
+      {
+        "nome": "PASTIFICIO ALINA CUCINI SAS ",
+        "indirizzo": "LUNGO DORA SIENA 101, TORINO",
+        "lat": 45.0734361,
+        "lng": 7.6972957
+      },
+      {
+        "nome": "CAFFETTERIA LA PERLA BIANCA DI FOSCHINI MARTINA",
+        "indirizzo": "CORSO REGINA MARGHERITA 5/A, TORINO",
+        "lat": 45.0690838,
+        "lng": 7.7059354
+      }
+    ]
+  },
+  {
+    "nome": "Torino Sud - 15",
+    "mapsUrl": "https://www.google.com/maps/dir/CORSO+SIRACUSA+73,+TORINO/C.SO+SIRACUSA+57/B,+TORINO/VIA+BASSANO+28/A,+TORINO/VIA+GUIDO+RENI+82/B,+TORINO/VIA+FILADELFIA+227+C,+TORINO/VIA+GORIZIA+106/A,+TORINO/VIA+GORIZIA+129/D,+TORINO/CORSO+ORBASSANO,+215,+TORINO/CORSO+SEBASTOPOLI+155/D,+TORINO/CORSO+AGNELLI+14,+TORINO",
+    "clienti": [
+      {
+        "nome": "CAFFE AROMA",
+        "indirizzo": "CORSO SIRACUSA 73, TORINO",
+        "lat": 45.0478389,
+        "lng": 7.6347534
+      },
+      {
+        "nome": "LA MIMOSA DI GIOFFRE ROSA",
+        "indirizzo": "C.SO SIRACUSA 57/B, TORINO",
+        "lat": 45.0497131,
+        "lng": 7.6348605
+      },
+      {
+        "nome": "BAR CAFFETTERIA MA LU SAS DI VILLAFRATE LUCIA & C",
+        "indirizzo": "VIA BASSANO 28/A, TORINO",
+        "lat": 45.0531913,
+        "lng": 7.6362109
+      },
+      {
+        "nome": "TABACCHI LA SMORFIA DI SAMBO MARINO",
+        "indirizzo": "VIA GUIDO RENI 82/B, TORINO",
+        "lat": 45.0502559,
+        "lng": 7.6294082
+      },
+      {
+        "nome": "CAFFE OLIMPICO DI TORCHIA MARIA",
+        "indirizzo": "VIA FILADELFIA 227 C, TORINO",
+        "lat": 45.0454062,
+        "lng": 7.6350947
+      },
+      {
+        "nome": "ANTONY 96 BAR DI ANTONIO MAGISTRO",
+        "indirizzo": "VIA GORIZIA 106/A, TORINO",
+        "lat": 45.0456786,
+        "lng": 7.640443
+      },
+      {
+        "nome": "CAFFETTERIA CRISTALL SNC ",
+        "indirizzo": "VIA GORIZIA 129/D, TORINO",
+        "lat": 45.0426753,
+        "lng": 7.6403113
+      },
+      {
+        "nome": "CAFFETTERIA GRANDE SNC ",
+        "indirizzo": "CORSO ORBASSANO, 215, TORINO",
+        "lat": 45.0425619,
+        "lng": 7.6394721
+      },
+      {
+        "nome": "CAFFE WILSON SNC ",
+        "indirizzo": "CORSO SEBASTOPOLI 155/D, TORINO",
+        "lat": 45.044316,
+        "lng": 7.6470734
+      },
+      {
+        "nome": "YOU SMILE DI COLOMBO ANDREA",
+        "indirizzo": "CORSO AGNELLI 14, TORINO",
+        "lat": 45.0426518,
+        "lng": 7.6483222
+      },
+      {
+        "nome": "GREEN DI PEPE ANTONIO",
+        "indirizzo": "Corso Sebastopoli 146/A, TORINO",
+        "lat": 45.0415824,
+        "lng": 7.655309
+      },
+      {
+        "nome": "TOP FRUIT SNC ",
+        "indirizzo": "CORSO UNIONE SOVIETICA 209, TORINO",
+        "lat": 45.0367015,
+        "lng": 7.6515857
+      },
+      {
+        "nome": "IL GUSTO SRL ",
+        "indirizzo": "Corso Monte Lungo 57A, TORINO",
+        "lat": 45.0494909,
+        "lng": 7.6544256
+      },
+      {
+        "nome": "CAFFE CASALEGNO ROSSELLI S.A.S. DI PENNO MANUELA",
+        "indirizzo": "CORSO ROSSELLI 89, TORINO",
+        "lat": 45.0528478,
+        "lng": 7.6563873
+      },
+      {
+        "nome": "BARCODE SNC ",
+        "indirizzo": "CORSO ORBASSANO 267, TORINO",
+        "lat": 45.039288,
+        "lng": 7.6329408
+      },
+      {
+        "nome": "CAFFETTERIA FOOD IMMERSION DI VALENTINA SCIANO",
+        "indirizzo": "C.SO ORBASSANO 258/B, TORINO",
+        "lat": 45.0393321,
+        "lng": 7.6319209
+      }
+    ]
+  },
+  {
+    "nome": "Extra - 1",
+    "mapsUrl": "https://www.google.com/maps/dir/VIA+NAZIONALE+71,+CAMBIANO/VIA+POIRINO+7,+CARMAGNOLA/VIA+XX+SETTEMBRE+5,+CARMAGNOLA/Via+San+Francesco+di+Sales+52/1,+CARMAGNOLA/VIA+DELLE+CHERCHE+3,+CARMAGNOLA/VIA+LIONNE+3,+CARMAGNOLA/VIA+DEL+PORTO+26,+CARMAGNOLA/VIA+SAN+FRANCESCO+DI+SALES+188,+CARMAGNOLA/CORSO+ROMA+22,+CARMAGNOLA/VIA+RACCONIGI+32,+CARMAGNOLA",
+    "clienti": [
+      {
+        "nome": "CAPPUCCINO&MACCHERONI DI SCHIMMENTI & GR",
+        "indirizzo": "VIA NAZIONALE 71, CAMBIANO",
+        "lat": 44.9645618,
+        "lng": 7.7756984
+      },
+      {
+        "nome": "RISTORANTE PIZZERIA DI QUAGLIA CRISTINA",
+        "indirizzo": "VIA POIRINO 7, CARMAGNOLA",
+        "lat": 44.8514066,
+        "lng": 7.726031
+      },
+      {
+        "nome": "PIZZERIA RISTORANTE IL PEPERONE SAS ",
+        "indirizzo": "VIA XX SETTEMBRE 5, CARMAGNOLA",
+        "lat": 44.8489137,
+        "lng": 7.7224394
+      },
+      {
+        "nome": "PEPPER CAFE",
+        "indirizzo": "Via San Francesco di Sales 52/1, CARMAGNOLA",
+        "lat": 44.8502411,
+        "lng": 7.7192092
+      },
+      {
+        "nome": "OSTO BRUMA SNC DI BALANGERO A., BOSCOLO B., CANALIS M.",
+        "indirizzo": "VIA DELLE CHERCHE 3, CARMAGNOLA",
+        "lat": 44.8454273,
+        "lng": 7.718701
+      },
+      {
+        "nome": "LA PATOUINA SNC DI CASALIS MARIA E C.",
+        "indirizzo": "VIA LIONNE 3, CARMAGNOLA",
+        "lat": 44.8463762,
+        "lng": 7.7148549
+      },
+      {
+        "nome": "CAFFE VITALE SRLS ",
+        "indirizzo": "VIA DEL PORTO 26, CARMAGNOLA",
+        "lat": 44.8446713,
+        "lng": 7.7116549
+      },
+      {
+        "nome": "TRATTORIA DELLA VIGNA C&C DI PIATTI CATERINA",
+        "indirizzo": "VIA SAN FRANCESCO DI SALES 188, CARMAGNOLA",
+        "lat": 44.846082,
+        "lng": 7.7086725
+      },
+      {
+        "nome": "BAR LIDO DI LIMUTI DIEGO RICCARDO",
+        "indirizzo": "CORSO ROMA 22, CARMAGNOLA",
+        "lat": 44.8409549,
+        "lng": 7.7181663
+      },
+      {
+        "nome": "DA GIO’ SAS DI MERCURIO MARIA",
+        "indirizzo": "VIA RACCONIGI 32, CARMAGNOLA",
+        "lat": 44.8357649,
+        "lng": 7.7123705
+      },
+      {
+        "nome": "PIZZERIA RISTORANTE DUE MORI DI DEGIOANNINI ELIO E C SNC",
+        "indirizzo": "VIA CHIFFI 18, CARMAGNOLA",
+        "lat": 44.8464477,
+        "lng": 7.7252321
+      },
+      {
+        "nome": "CAFFE VITALE SRLS ",
+        "indirizzo": "VIA DEL PORTO 26, CARMAGNOLA",
+        "lat": 44.8437149,
+        "lng": 7.6906098
+      },
+      {
+        "nome": "LA CIABURNA 2.0 DI SIRACUSA SARAH",
+        "indirizzo": "PIAZZA IV NOVEMBRE 33, RACCONIGI",
+        "lat": 44.7709544,
+        "lng": 7.6814936
+      },
+      {
+        "nome": "L'ARANCERA SAS DI GIRAUDO PAOLA & C.",
+        "indirizzo": "Piazza Caduti per la Libertà, 17, RACCONIGI",
+        "lat": 44.7699455,
+        "lng": 7.6791496
+      },
+      {
+        "nome": "BAR QUARANTOTTO DI LO FORTE STEFANIA",
+        "indirizzo": "PIAZZA 1275 N.8, SAN DAMIANO D ASTI",
+        "lat": 44.8332823,
+        "lng": 8.065965
+      },
+      {
+        "nome": "BAR ROMA SNC DI FILEPPO M. E FILEPPO A.",
+        "indirizzo": "VIA ROMA 1, VILLAFRANCA PIEMONTE",
+        "lat": 44.9138866,
+        "lng": 8.0301167
+      }
+    ]
+  },
+  {
+    "nome": "Extra - 2",
+    "mapsUrl": "https://www.google.com/maps/dir/VIALE+MANZONI+4/D,+NOVARA/VIA+V.+GIOBERTI+36,+VERCELLI",
+    "clienti": [
+      {
+        "nome": "CAFFE MANZONI DI FERRARO IMMACOLATA",
+        "indirizzo": "VIALE MANZONI 4/D, NOVARA",
+        "lat": 45.4509186,
+        "lng": 8.6242697
+      },
+      {
+        "nome": "HERMES CAFE DI FRANCINI SONIA",
+        "indirizzo": "VIA V. GIOBERTI 36, VERCELLI",
+        "lat": 45.3263775,
+        "lng": 8.4254067
+      }
+    ]
+  },
+  {
+    "nome": "Extra - 3",
+    "mapsUrl": "https://www.google.com/maps/dir/VIA+VITTORIO+EMANUELE+II+91,+CIRIE/VIA+VITTORIO+EMANUELE+179,+CIRIE/VIA+NAZIONALE+23,+PINASCA",
+    "clienti": [
+      {
+        "nome": "PIER 91 DI FORNERO PIERPAOLA ",
+        "indirizzo": "VIA VITTORIO EMANUELE II 91, CIRIE",
+        "lat": 45.2346776,
+        "lng": 7.6044322
+      },
+      {
+        "nome": "CAFFETTERIA GELATERIA ALA DI VALSANIA ROBERTA",
+        "indirizzo": "VIA VITTORIO EMANUELE 179, CIRIE",
+        "lat": 45.2346872,
+        "lng": 7.6045573
+      },
+      {
+        "nome": "MICHI CAFE DI GANIO-MEGO GIORGIA",
+        "indirizzo": "VIA NAZIONALE 23, PINASCA",
+        "lat": 44.9319715,
+        "lng": 7.2350491
+      }
+    ]
+  },
+  {
+    "nome": "Torino Ovest - 1",
+    "mapsUrl": "https://www.google.com/maps/dir/STRADA+DEL+BAROCCHIO+27/A,+GRUGLIASCO/VIA+BENGASI+1,+GRUGLIASCO/C.SO+FRANCIA+209,+COLLEGNO/CORSO+FRANCIA+48/D,+COLLEGNO/CORSO+FRANCIA+165,+COLLEGNO/VIA+LEOPARDI+50,+COLLEGNO/VIA+TORINO+72/74,+COLLEGNO/VIA+LEONARDO+DA+VINCI+133,+GRUGLIASCO/VIA+LEONARDO+DA+VINCI+20,+GRUGLIASCO/STRADA+DEL+PORTONE+21,+GRUGLIASCO",
+    "clienti": [
+      {
+        "nome": "CUS BAR SNC",
+        "indirizzo": "STRADA DEL BAROCCHIO 27/A, GRUGLIASCO",
+        "lat": 45.0470483,
+        "lng": 7.612042
+      },
+      {
+        "nome": "PANE E CAFFE ",
+        "indirizzo": "VIA BENGASI 1, GRUGLIASCO",
+        "lat": 45.0578016,
+        "lng": 7.6226323
+      },
+      {
+        "nome": "LADY FALCO DI D ANTONA GIUSEPPINA",
+        "indirizzo": "C.SO FRANCIA 209, COLLEGNO",
+        "lat": 45.0738351,
+        "lng": 7.6035716
+      },
+      {
+        "nome": "NINO CAFE DI BRIGANTI JESSICA",
+        "indirizzo": "CORSO FRANCIA 48/D, COLLEGNO",
+        "lat": 45.0738351,
+        "lng": 7.6035716
+      },
+      {
+        "nome": "STRAFUD SRL ",
+        "indirizzo": "CORSO FRANCIA 165, COLLEGNO",
+        "lat": 45.0738193,
+        "lng": 7.6031555
+      },
+      {
+        "nome": "GRASSELLI MAURIZIO ",
+        "indirizzo": "VIA LEOPARDI 50, COLLEGNO",
+        "lat": 45.076769,
+        "lng": 7.6050612
+      },
+      {
+        "nome": "BAR TRATTORIA TIRAMISU ",
+        "indirizzo": "VIA TORINO 72/74, COLLEGNO",
+        "lat": 45.0736609,
+        "lng": 7.5879079
+      },
+      {
+        "nome": "BAR OASI DI MEDICO ANTONELLA",
+        "indirizzo": "VIA LEONARDO DA VINCI 133, GRUGLIASCO",
+        "lat": 45.0689971,
+        "lng": 7.589037
+      },
+      {
+        "nome": "TRATTORIA PRO GRUGLIASCO DICACCIOLA ALESSANDRO",
+        "indirizzo": "VIA LEONARDO DA VINCI 20, GRUGLIASCO",
+        "lat": 45.0689971,
+        "lng": 7.589037
+      },
+      {
+        "nome": "BAR DEL PORTONE DI MILILLA OLGA",
+        "indirizzo": "STRADA DEL PORTONE 21, GRUGLIASCO",
+        "lat": 45.0401962,
+        "lng": 7.5826656
+      }
+    ]
+  },
+  {
+    "nome": "Torino Ovest - 2",
+    "mapsUrl": "https://www.google.com/maps/dir/CORSO+FRANCIA+154,+RIVOLI/CORSO+FRANCIA+228,+RIVOLI/CORSO+XXV+APRILE+99,+RIVOLI/CORSO+SUSA+242,+RIVOLI/VIA+GIAVENO+54,+RIVALTA",
+    "clienti": [
+      {
+        "nome": "SO EASY CAFE DI MANGANELLO FABIO",
+        "indirizzo": "CORSO FRANCIA 154, RIVOLI",
+        "lat": 45.0704878,
+        "lng": 7.5208785
+      },
+      {
+        "nome": "CAFFETTERIA ORCHIDEA SIM.SON.SAS",
+        "indirizzo": "CORSO FRANCIA 228, RIVOLI",
+        "lat": 45.0704878,
+        "lng": 7.5208785
+      },
+      {
+        "nome": "MAGIC LOUNGE CAFE DI CARROZZA LETIZIA",
+        "indirizzo": "CORSO XXV APRILE 99, RIVOLI",
+        "lat": 45.0634088,
+        "lng": 7.5186121
+      },
+      {
+        "nome": "MADLY CAFE DI GERVASI GIANLUCA",
+        "indirizzo": "CORSO SUSA 242, RIVOLI",
+        "lat": 45.0803462,
+        "lng": 7.508483
+      },
+      {
+        "nome": "LA FONTANA SRL ",
+        "indirizzo": "VIA GIAVENO 54, RIVALTA",
+        "lat": 45.0099342,
+        "lng": 7.5187095
+      }
+    ]
+  },
+  {
+    "nome": "Torino Ovest - 3",
+    "mapsUrl": "https://www.google.com/maps/dir/VIA+PIAVE+7,+COLLEGNO/VIA+CEFALONIA+9,+COLLEGNO/VIA+CONDOVE+6B,+COLLEGNO/CORSO+FRANCIA+201,+RIVOLI/CORSO+FRANCIA+242,+RIVOLI/VIA+SESTRIERE+33,+RIVOLI/VIA+PAVIA+75/A,+RIVOLI/VIA+ROMA+55,+COLLEGNO/Martiri+XXX+Aprile,+COLLEGNO/VIA+TAMPELLINI+5,+COLLEGNO",
+    "clienti": [
+      {
+        "nome": "CASA DEL BISCOTTO DI PALMERO FLAVIO",
+        "indirizzo": "VIA PIAVE 7, COLLEGNO",
+        "lat": 45.07034,
+        "lng": 7.5661283
+      },
+      {
+        "nome": "CHERRY ROSE DI SHARON MINUTILLO",
+        "indirizzo": "VIA CEFALONIA 9, COLLEGNO",
+        "lat": 45.0718331,
+        "lng": 7.5630817
+      },
+      {
+        "nome": "LANGUORINO DICAPOLONGO SAVINO",
+        "indirizzo": "VIA CONDOVE 6B, COLLEGNO",
+        "lat": 45.0733692,
+        "lng": 7.5613984
+      },
+      {
+        "nome": "RICHARD BAR DI VELZAG A. E C SNC CAFFE 10 E LODE",
+        "indirizzo": "CORSO FRANCIA 201, RIVOLI",
+        "lat": 45.0718909,
+        "lng": 7.5514034
+      },
+      {
+        "nome": "CAFFE LEUMANN SEMPLICEMENTE NOI SRLS",
+        "indirizzo": "CORSO FRANCIA 242, RIVOLI",
+        "lat": 45.0713841,
+        "lng": 7.5455483
+      },
+      {
+        "nome": "FLORIO SPA DI NAPOLI CLAUDIO & C",
+        "indirizzo": "VIA SESTRIERE 33, RIVOLI",
+        "lat": 45.0744348,
+        "lng": 7.5461648
+      },
+      {
+        "nome": "TETO CAFE DI SCIARRATTA GIANLUCA",
+        "indirizzo": "VIA PAVIA 75/A, RIVOLI",
+        "lat": 45.0611972,
+        "lng": 7.5494455
+      },
+      {
+        "nome": "L ATELIER DEL GUSTO DI ZIMMARDI M. E MIGLIORSI M. SNC",
+        "indirizzo": "VIA ROMA 55, COLLEGNO",
+        "lat": 45.0770498,
+        "lng": 7.5703171
+      },
+      {
+        "nome": "BAR ANTICA CERTOSA DI XU QIURONG",
+        "indirizzo": "Martiri XXX Aprile, COLLEGNO",
+        "lat": 45.0717489,
+        "lng": 7.5776306
+      },
+      {
+        "nome": "MATCH CAFE NOVECENTO SRLS",
+        "indirizzo": "VIA TAMPELLINI 5, COLLEGNO",
+        "lat": 45.0847982,
+        "lng": 7.5811524
+      },
+      {
+        "nome": "FUORI GIOCO SNC DI BONDESAN LUCA & ALESSIO",
+        "indirizzo": "Via Sergio Allegri, 15, COLLEGNO",
+        "lat": 45.0894661,
+        "lng": 7.5663845
+      },
+      {
+        "nome": "BAR TABACCHI CASSAGNA DI MATARRESE GIUSEPPE",
+        "indirizzo": "LARGO II GIUGNO 2, PIANEZZA",
+        "lat": 45.1040679,
+        "lng": 7.5557034
+      },
+      {
+        "nome": "PIAZZA ROSSI SRLS ",
+        "indirizzo": "Via Mollardi, PIANEZZA",
+        "lat": 45.1005256,
+        "lng": 7.5447856
+      }
+    ]
+  },
+  {
+    "nome": "Torino Nord - 1",
+    "mapsUrl": "https://www.google.com/maps/dir/VIA+DRUENTO+376/A,+VENARIA+REALE/Piazza+De+Gasperi,+VENARIA+REALE/VIA+RIVAROLO+49,+MAPPANO/VIA+ASTI+12,+SETTIMO+TORINESE/VIA+DELLA+REPUBBLICA+12,+SETTIMO+TORINESE/Corso+Fratelli+Kennedy,+DRUENTO/VIA+BRACCINI+4,+ROBASSOMERO/VIA+STURA+72,+CIRIE'",
+    "clienti": [
+      {
+        "nome": "GIUGIULIA SNC DI VINCENZO DISPENSA & C",
+        "indirizzo": "VIA DRUENTO 376/A, VENARIA REALE",
+        "lat": 45.1124893,
+        "lng": 7.6521338
+      },
+      {
+        "nome": "BAR VITTORIA S.A.S. DI LESTUKHA VIKTORIYA MYKHAYLIVNA E C.",
+        "indirizzo": "Piazza De Gasperi, VENARIA REALE",
+        "lat": 45.1254684,
+        "lng": 7.6297544
+      },
+      {
+        "nome": "BAR DELLA GALLERIA DI TIZIANA ARLOTTA",
+        "indirizzo": "VIA RIVAROLO 49, MAPPANO",
+        "lat": 45.1433908,
+        "lng": 7.7060549
+      },
+      {
+        "nome": "CAFFETTERIA PATEO SAS LA MAISON ROYALE DI VELARDO SANTO",
+        "indirizzo": "VIA ASTI 12, SETTIMO TORINESE",
+        "lat": 45.130266,
+        "lng": 7.7606544
+      },
+      {
+        "nome": "EVO SRL ",
+        "indirizzo": "VIA DELLA REPUBBLICA 12, SETTIMO TORINESE",
+        "lat": 45.1377502,
+        "lng": 7.7661184
+      },
+      {
+        "nome": "CASCINA OSLERA SRL",
+        "indirizzo": "Corso Fratelli Kennedy, DRUENTO",
+        "lat": 45.1793191,
+        "lng": 7.5899174
+      },
+      {
+        "nome": "LA BOUTIQUE DEL GUSTO DI PAGANO SAMUELE",
+        "indirizzo": "VIA BRACCINI 4, ROBASSOMERO",
+        "lat": 45.1996922,
+        "lng": 7.5710833
+      },
+      {
+        "nome": "AR.TI.DE.SRLS ",
+        "indirizzo": "VIA STURA 72, CIRIE'",
+        "lat": 45.2067828,
+        "lng": 7.5753254
+      }
+    ]
+  },
+  {
+    "nome": "Valsusa - 1",
+    "mapsUrl": "https://www.google.com/maps/dir/VIA+TRAFORO+N.+26,+BUSSOLENO/VIA+SUSA+79,+CHIUSA+DI+SAN+MICHELE",
+    "clienti": [
+      {
+        "nome": "LA TERRAZZA DI ALESSIA FIORENTINO",
+        "indirizzo": "VIA TRAFORO N. 26, BUSSOLENO",
+        "lat": 45.1390292,
+        "lng": 7.1472892
+      },
+      {
+        "nome": "GELATERIA DOLCE INCONTRO DI MERCANTE LUISA",
+        "indirizzo": "VIA SUSA 79, CHIUSA DI SAN MICHELE",
+        "lat": 45.106457,
+        "lng": 7.3118558
+      }
+    ]
+  },
+  {
+    "nome": "Torino Est - 1",
+    "mapsUrl": "https://www.google.com/maps/dir/VIA+ROASCHIA+11,+CHIERI/PIAZZA+DON+BOSCO+1,+CHIERI/STRADA+CHIERI+66,+PINO+TORINESE/STRADA+DELLA+REZZA+87+,+CHIERI/VIA+TORINO+174+A,+CASTIGLIONE+TORINESE/VIA+AOSTA+16,+SAN+MAURO+TORINESE/PIAZZA+MARTIRI+DELLA+LIBERTA+6,+SANTENA",
+    "clienti": [
+      {
+        "nome": "HOLLYWOOD COFFEE DI PALMISANO RITA",
+        "indirizzo": "VIA ROASCHIA 11, CHIERI",
+        "lat": 45.0140344,
+        "lng": 7.8107314
+      },
+      {
+        "nome": "BAR STAZIONE DI YE YIYI",
+        "indirizzo": "PIAZZA DON BOSCO 1, CHIERI",
+        "lat": 45.0065024,
+        "lng": 7.8234655
+      },
+      {
+        "nome": "BAR Q8 DI ETUR STEFANIA",
+        "indirizzo": "STRADA CHIERI 66, PINO TORINESE",
+        "lat": 45.0138232,
+        "lng": 7.7806329
+      },
+      {
+        "nome": "LA NAVE DEI FOLLI SRL ",
+        "indirizzo": "STRADA DELLA REZZA 87 , CHIERI",
+        "lat": 45.0541078,
+        "lng": 7.8443005
+      },
+      {
+        "nome": "RUSTICA SRL ",
+        "indirizzo": "VIA TORINO 174 A, CASTIGLIONE TORINESE",
+        "lat": 45.1194148,
+        "lng": 7.8094145
+      },
+      {
+        "nome": "MANTE SRLS ",
+        "indirizzo": "VIA AOSTA 16, SAN MAURO TORINESE",
+        "lat": 45.1075382,
+        "lng": 7.7509479
+      },
+      {
+        "nome": "PINGUINO GOLOSO DI GERALDI GIUSEPPINA",
+        "indirizzo": "PIAZZA MARTIRI DELLA LIBERTA 6, SANTENA",
+        "lat": 44.9491622,
+        "lng": 7.7723843
+      }
+    ]
+  },
+  {
+    "nome": "Canavese - 1",
+    "mapsUrl": "https://www.google.com/maps/dir/via+martiri+1821,+VICO+CANAVESE/VIA+LAGO+SIRIO,+CHIAVERANO/Corso+Italia+40,+RIVAROLO+CANAVESE",
+    "clienti": [
+      {
+        "nome": "LA STELLA DELLE ALPI DI BUGNI M.BEATRICE",
+        "indirizzo": "via martiri 1821, VICO CANAVESE",
+        "lat": 45.4941642,
+        "lng": 7.7791945
+      },
+      {
+        "nome": "CHALET MOIA ",
+        "indirizzo": "VIA LAGO SIRIO, CHIAVERANO",
+        "lat": 45.4847211,
+        "lng": 7.8865444
+      },
+      {
+        "nome": "L ORA DEL CAFFE S.N.C. DI VARONE MASSIMO & C",
+        "indirizzo": "Corso Italia 40, RIVAROLO CANAVESE",
+        "lat": 45.3346956,
+        "lng": 7.7256539
+      }
+    ]
+  },
+  {
+    "nome": "Cuneo Area - 1",
+    "mapsUrl": "https://www.google.com/maps/dir/VIA+OSPEDALI+13,+SAVIGLIANO/CORSO+ROMA+1,+SAVIGLIANO/VIA+TOGLIATTI+14,+SAVIGLIANO/VIA+PASCHERETTO+3,+MARENE/GUGLIELMO+MARCONI+75,+MARENE/VIA+BRA+30,+RORETO+DI+CHERASCO/Via+Sartori+33,+BRA/VIA+MARTIRI+11,+CERESOLE+D+ALBA/Corso+Piemonte+11,+SALUZZO",
+    "clienti": [
+      {
+        "nome": "BREC BAR DI FERRERO E C SNC",
+        "indirizzo": "VIA OSPEDALI 13, SAVIGLIANO",
+        "lat": 44.6432191,
+        "lng": 7.6605901
+      },
+      {
+        "nome": "GRAZIANO DI GALLO G. ",
+        "indirizzo": "CORSO ROMA 1, SAVIGLIANO",
+        "lat": 44.6481064,
+        "lng": 7.6559295
+      },
+      {
+        "nome": "BAR DEL VIALE DI ARVIERI LUCA",
+        "indirizzo": "VIA TOGLIATTI 14, SAVIGLIANO",
+        "lat": 44.6589215,
+        "lng": 7.6564536
+      },
+      {
+        "nome": "POWER FOOD SRL CENTRO SPORTIVO MARENE",
+        "indirizzo": "VIA PASCHERETTO 3, MARENE",
+        "lat": 44.6643931,
+        "lng": 7.7313034
+      },
+      {
+        "nome": "BORGO NUOVO DI GASTALDI F.LLI SNC",
+        "indirizzo": "GUGLIELMO MARCONI 75, MARENE",
+        "lat": 44.6658536,
+        "lng": 7.7527825
+      },
+      {
+        "nome": "BAR BERGOGLIO DI ROSSO MARIO ",
+        "indirizzo": "VIA BRA 30, RORETO DI CHERASCO",
+        "lat": 44.6685597,
+        "lng": 7.8367181
+      },
+      {
+        "nome": "SBRANAMI DI GIANLUCA MARIANI PISCINE ACQUA E COMPANY",
+        "indirizzo": "Via Sartori 33, BRA",
+        "lat": 44.7064123,
+        "lng": 7.8383042
+      },
+      {
+        "nome": "CAFFE DEL CENTRO 1900 SNC DI FERRARO CARMELA E C.",
+        "indirizzo": "VIA MARTIRI 11, CERESOLE D ALBA",
+        "lat": 44.8011494,
+        "lng": 7.8156108
+      },
+      {
+        "nome": "MOHSEN WANIS IBRAHIM KIROLOS ",
+        "indirizzo": "Corso Piemonte 11, SALUZZO",
+        "lat": 44.6463639,
+        "lng": 7.4885387
+      }
+    ]
+  },
+  {
+    "nome": "Pinerolo Area - 1",
+    "mapsUrl": "https://www.google.com/maps/dir/VIA+VIRGINIO+13,+PINEROLO/Piazza+Corte+1,+VIGONE/VIA+TORINO+99,+CASALGRASSO",
+    "clienti": [
+      {
+        "nome": "MON BIJOU SNC DI MONGIELLO VANDA",
+        "indirizzo": "VIA VIRGINIO 13, PINEROLO",
+        "lat": 44.8847334,
+        "lng": 7.3340805
+      },
+      {
+        "nome": "TURF SNC DI FABIO LARDONE E C.",
+        "indirizzo": "Piazza Corte 1, VIGONE",
+        "lat": 44.8425022,
+        "lng": 7.4921223
+      },
+      {
+        "nome": "2C SRL ",
+        "indirizzo": "VIA TORINO 99, CASALGRASSO",
+        "lat": 44.8200146,
+        "lng": 7.6268464
+      }
+    ]
+  }
+]
