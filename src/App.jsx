@@ -1051,14 +1051,13 @@ if (!utente) {
           />
           <FollowMap posizione={posizioneLive} />
 
-          {/* AGENTE NORMALE */}
+{/* AGENTE NORMALE */}
 {ruolo !== "admin" && posizioneLive && (
 
   <Marker
-    key={agente.id}
     position={[
-      agente.posizione.lat,
-      agente.posizione.lng
+      posizioneLive.lat,
+      posizioneLive.lng
     ]}
     icon={iconaAgente}
   >
@@ -1101,8 +1100,9 @@ if (!utente) {
           position={[
             agente.posizione.lat,
             agente.posizione.lng
-                    ]}
-                  >
+          ]}
+          icon={iconaAgente}
+        >
 
                     <Popup>
 
