@@ -81,6 +81,19 @@ export default function App() {
   const [agentiLive, setAgentiLive] = useState([]);
   const [clienti, setClienti] = useState([]);
   const [clienteVicinoCheck, setClienteVicinoCheck] = useState(null);
+  const [showNuovoCliente, setShowNuovoCliente] =
+  useState(false);
+  const [loadingCliente, setLoadingCliente] =
+  useState(false);
+  const [messaggioCliente, setMessaggioCliente] =
+  useState(null);
+  const [nuovoCliente, setNuovoCliente] =
+  useState({
+
+    nome: "",
+    indirizzo: "",
+
+  });
   console.log("CLIENTI:", clienti);
   console.log("RUOLO:", ruolo);
   console.log("AGENTI LIVE:", agentiLive);
@@ -592,7 +605,123 @@ const login = async () => {
 const logout = async () => {
   await signOut(auth);
 };
+const aggiungiCliente = async () => {
 
+  if (
+    !nuovoCliente.nome ||
+    !nuovoCliente.indirizzo
+  ) {
+
+    setMessaggioCliente({
+      tipo: "errore",
+      testo: "Compila tutti i campi"
+    });
+
+    return;
+  }
+
+  try {
+
+    setLoadingCliente(true);
+
+    setMessaggioCliente(null);
+
+    // GEOCODING
+    const response = await fetch(
+      `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(
+        nuovoCliente.indirizzo
+      )}`
+    );
+
+    const data = await response.json();
+
+    if (!data.length) {
+
+      setMessaggioCliente({
+        tipo: "errore",
+        testo:
+          "Indirizzo non trovato"
+      });
+
+      setLoadingCliente(false);
+
+      return;
+    }
+
+    const lat = parseFloat(
+      data[0].lat
+    );
+
+    const lng = parseFloat(
+      data[0].lon
+    );
+
+    const zonaAutomatica =
+      trovaZonaAutomatica(
+        lat,
+        lng
+      );
+
+    await setDoc(
+
+      doc(
+        collection(
+          db,
+          "agenti",
+          agenteId,
+          "clienti"
+        )
+      ),
+
+      {
+        nome: nuovoCliente.nome,
+        indirizzo:
+          nuovoCliente.indirizzo,
+        lat,
+        lng,
+        zona: zonaAutomatica,
+        creatoIl:
+          serverTimestamp()
+      }
+
+    );
+
+    setMessaggioCliente({
+      tipo: "successo",
+      testo:
+        `Cliente aggiunto in zona ${zonaAutomatica}`
+    });
+
+    setNuovoCliente({
+      nome: "",
+      indirizzo: ""
+    });
+
+    setTimeout(() => {
+
+      setShowNuovoCliente(false);
+
+      setMessaggioCliente(null);
+
+    }, 1500);
+
+  } catch (err) {
+
+    console.log(err);
+
+    setMessaggioCliente({
+      tipo: "errore",
+      testo:
+        "Errore durante il salvataggio"
+    });
+
+  } finally {
+
+    setLoadingCliente(false);
+
+  }
+
+};
 const generaPercorsoGoogle = (clientiZona) => {
 
   if (!posizioneLive) return "#";
@@ -716,6 +845,46 @@ const clientiFiltrati =
     );
 
   return R * c;
+}
+function trovaZonaAutomatica(
+  lat,
+  lng
+) {
+
+  let zonaTrovata =
+    "Senza Zona";
+
+  let distanzaMinima =
+    Infinity;
+
+  clienti.forEach((cliente) => {
+
+    if (!cliente.lat || !cliente.lng)
+      return;
+
+    const distanza =
+      calcolaDistanza(
+        lat,
+        lng,
+        cliente.lat,
+        cliente.lng
+      );
+
+    if (distanza < distanzaMinima) {
+
+      distanzaMinima =
+        distanza;
+
+      zonaTrovata =
+        cliente.zona ||
+        "Senza Zona";
+
+    }
+
+  });
+
+  return zonaTrovata;
+
 }
 
 function ottimizzaPercorso(
@@ -983,7 +1152,14 @@ if (!utente) {
             >
               Logout
             </button>
-
+            <button
+              onClick={() =>
+                setShowNuovoCliente(true)
+              }
+              className="bg-green-500 hover:bg-green-600 text-white px-5 py-3 rounded-2xl font-semibold"
+            >
+              + Cliente
+            </button>
             <label className="flex items-center gap-2 bg-white px-4 py-3 rounded-2xl border cursor-pointer">
 
               <input
@@ -1014,7 +1190,88 @@ if (!utente) {
         />
 
       )}
+    {showNuovoCliente && (
 
+  <div className="fixed inset-0 bg-black/40 z-[999] flex items-center justify-center p-4">
+
+    <div className="bg-white rounded-3xl p-6 w-full max-w-lg">
+
+      <h2 className="text-2xl font-black mb-5">
+        Nuovo Cliente
+      </h2>
+
+      <div className="space-y-4">
+
+        <input
+          type="text"
+          placeholder="Nome cliente"
+          value={nuovoCliente.nome}
+          onChange={(e) =>
+            setNuovoCliente({
+              ...nuovoCliente,
+              nome: e.target.value
+            })
+          }
+          className="w-full bg-gray-100 rounded-2xl px-4 py-4 outline-none"
+        />
+
+        <input
+          type="text"
+          placeholder="Indirizzo"
+          value={nuovoCliente.indirizzo}
+          onChange={(e) =>
+            setNuovoCliente({
+              ...nuovoCliente,
+              indirizzo:
+                e.target.value
+            })
+          }
+          className="w-full bg-gray-100 rounded-2xl px-4 py-4 outline-none"
+        />
+
+
+      </div>
+
+      <div className="flex gap-3 mt-6">
+          {messaggioCliente && (
+
+  <div
+    className={`p-4 rounded-2xl text-sm font-semibold ${
+      messaggioCliente.tipo === "successo"
+        ? "bg-green-100 text-green-700"
+        : "bg-red-100 text-red-700"
+    }`}
+  >
+    {messaggioCliente.testo}
+  </div>
+
+)}
+        <button
+           onClick={aggiungiCliente}
+            disabled={loadingCliente}
+          className="flex-1 bg-black text-white py-4 rounded-2xl font-bold"
+        >
+          {loadingCliente
+            ? "Salvataggio..."
+            : "Salva Cliente"}        
+        </button>
+
+        <button
+          onClick={() =>
+            setShowNuovoCliente(false)
+          }
+          className="px-5 py-4 rounded-2xl bg-gray-200 font-semibold"
+        >
+          Chiudi
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+)}
     <div className="max-w-7xl mx-auto px-4 pt-6">
 
       {clienteVicinoCheck && (
