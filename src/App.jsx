@@ -672,27 +672,10 @@ const percorsiNormalizzati = Object.values(
 
   ...percorso,
 
-  clienti: percorso.clienti.sort((a, b) => {
-
-    if (!posizioneLive) return 0;
-
-    const distA = calcolaDistanza(
-      posizioneLive.lat,
-      posizioneLive.lng,
-      a.lat,
-      a.lng
-    );
-
-    const distB = calcolaDistanza(
-      posizioneLive.lat,
-      posizioneLive.lng,
-      b.lat,
-      b.lng
-    );
-
-    return distA - distB;
-
-  })
+clienti: ottimizzaPercorso(
+  percorso.clienti,
+  posizioneLive
+)
 
 }))
 
@@ -733,6 +716,79 @@ const clientiFiltrati =
     );
 
   return R * c;
+}
+
+function ottimizzaPercorso(
+  clientiZona,
+  posizionePartenza
+) {
+
+  if (!posizionePartenza)
+    return clientiZona;
+
+  let nonVisitati = [...clientiZona];
+
+  let percorso = [];
+
+  let posizioneCorrente = {
+    lat: posizionePartenza.lat,
+    lng: posizionePartenza.lng
+  };
+
+  while (nonVisitati.length > 0) {
+
+    let clientePiuVicino = null;
+
+    let indicePiuVicino = 0;
+
+    let distanzaMinima = Infinity;
+
+    nonVisitati.forEach(
+      (cliente, index) => {
+
+        if (!cliente.lat || !cliente.lng)
+          return;
+
+        const distanza =
+          calcolaDistanza(
+            posizioneCorrente.lat,
+            posizioneCorrente.lng,
+            cliente.lat,
+            cliente.lng
+          );
+
+        if (distanza < distanzaMinima) {
+
+          distanzaMinima = distanza;
+
+          clientePiuVicino = cliente;
+
+          indicePiuVicino = index;
+
+        }
+
+      }
+    );
+
+    if (!clientePiuVicino)
+      break;
+
+    percorso.push(clientePiuVicino);
+
+    posizioneCorrente = {
+      lat: clientePiuVicino.lat,
+      lng: clientePiuVicino.lng
+    };
+
+    nonVisitati.splice(
+      indicePiuVicino,
+      1
+    );
+
+  }
+
+  return percorso;
+
 }
 
 let clientePiuVicino = null;
@@ -1071,50 +1127,117 @@ if (!utente) {
       posizioneLive.lat,
       posizioneLive.lng
     ]}
-      
+    icon={iconaOnline}
   >
 
     <Popup>
 
-    <div>
+      <div>
 
-      <div className="font-bold text-base">
-        🚗 {agente.nome}
-      </div>
+        <div className="font-bold text-base">
+          🚗 Sei qui
+        </div>
 
-      <div className="text-sm text-gray-500">
-        {agente.email}
-      </div>
+        <div className="text-sm text-gray-500">
+          {utente?.email}
+        </div>
 
-      <div
-        className={`mt-2 text-sm font-bold ${
-          online
-            ? "text-green-600"
-            : "text-red-500"
-        }`}
-      >
-        {online
-          ? "Online realtime"
-          : "Offline"}
-      </div>
-
-      <div className="text-xs text-gray-500 mt-1">
-
-        Ultimo accesso:
-        {" "}
-        {
-          agente.ultimoAccesso
-            ?.toDate?.()
-            ?.toLocaleString()
-        }
+        <div className="mt-2 text-sm font-bold text-green-600">
+          Online realtime
+        </div>
 
       </div>
 
-    </div>
+    </Popup>
 
-  </Popup>
+  </Marker>
 
-</Marker>
+)}
+
+{/* ADMIN */}
+{ruolo === "admin" && (
+
+  <>
+
+    {agentiLive.map((agente) => {
+
+      const ultimoAccesso =
+        agente.ultimoAccesso?.toDate?.();
+
+      const online =
+        ultimoAccesso &&
+        Date.now() - ultimoAccesso.getTime()
+          < 1000 * 60 * 2;
+
+      if (
+        !agente.posizione?.lat ||
+        !agente.posizione?.lng
+      ) {
+        return null;
+      }
+
+      return (
+
+        <Marker
+          key={agente.id}
+          position={[
+            agente.posizione.lat,
+            agente.posizione.lng
+          ]}
+          icon={
+            online
+              ? iconaOnline
+              : iconaOffline
+          }
+        >
+
+          <Popup>
+
+            <div>
+
+              <div className="font-bold text-base">
+                🚗 {agente.nome}
+              </div>
+
+              <div className="text-sm text-gray-500">
+                {agente.email}
+              </div>
+
+              <div
+                className={`mt-2 text-sm font-bold ${
+                  online
+                    ? "text-green-600"
+                    : "text-red-500"
+                }`}
+              >
+                {online
+                  ? "Online realtime"
+                  : "Offline"}
+              </div>
+
+              <div className="text-xs text-gray-500 mt-1">
+
+                Ultimo accesso:
+                {" "}
+                {
+                  agente.ultimoAccesso
+                    ?.toDate?.()
+                    ?.toLocaleString()
+                }
+
+              </div>
+
+            </div>
+
+          </Popup>
+
+        </Marker>
+
+      );
+
+    })}
+
+  </>
 
 )}
 
