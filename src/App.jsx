@@ -985,7 +985,7 @@ if (!utente) {
 
       )}
 
-      {clientePiuVicino && (
+      {ruolo !== "admin" && clientePiuVicino && (
 
         <div className="bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-3xl p-6 mb-6 shadow-xl">
 

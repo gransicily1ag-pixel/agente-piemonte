@@ -9,75 +9,66 @@ export default function DashboardAdmin({
 
   return (
 
-    <div className="mb-8">
+    <div className="mb-6">
 
-      <div className="flex items-center justify-between mb-5">
+      <div className="mb-4">
 
-        <div>
+        <h2 className="text-2xl font-black">
+          Dashboard Admin
+        </h2>
 
-          <h2 className="text-3xl font-black">
-            Dashboard Admin
-          </h2>
-
-          <p className="text-gray-500 mt-1">
-            Monitoraggio realtime agenti
-          </p>
-
-        </div>
+        <p className="text-gray-500 text-sm">
+          Monitoraggio realtime agenti
+        </p>
 
       </div>
 
-      <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-5">
+      <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-4">
 
         {agentiLive.map((agente) => {
 
-          // ONLINE / OFFLINE
+          const ultimoAccesso =
+            agente.ultimoAccesso?.toDate?.();
+
           const online =
-            agente.posizione?.updatedAt &&
-            (
-              Date.now() -
-              agente.posizione.updatedAt
-                .toDate()
-                .getTime()
-            ) < 120000;
+            ultimoAccesso &&
+            Date.now() - ultimoAccesso.getTime()
+              < 1000 * 60 * 2;
 
           return (
 
-            <div
+            <details
               key={agente.id}
-              className="bg-white rounded-3xl border shadow-sm p-5"
+              className="bg-white rounded-2xl border shadow-sm overflow-hidden"
             >
 
-              {/* HEADER */}
-              <div className="flex items-center justify-between">
+              <summary className="list-none cursor-pointer p-4 flex items-center justify-between">
 
                 <div>
 
-                  <div className="text-2xl font-black">
-                    {agente.nome || "Agente"}
+                  <div className="font-black text-lg">
+                    {agente.nome}
                   </div>
 
-                  <div className="text-gray-500 text-sm mt-1">
+                  <div className="text-xs text-gray-500 mt-1">
                     {agente.email}
                   </div>
 
                 </div>
 
                 <div
-                  className={`w-4 h-4 rounded-full ${
+                  className={`w-3 h-3 rounded-full ${
                     online
-                      ? "bg-green-500 animate-pulse"
+                      ? "bg-green-500"
                       : "bg-red-500"
                   }`}
                 />
 
-              </div>
+              </summary>
 
-              {/* INFO */}
-              <div className="mt-5 space-y-3">
+              <div className="px-4 pb-4 border-t bg-gray-50 text-sm">
 
-                {/* RUOLO */}
-                <div className="flex justify-between">
+                <div className="flex justify-between mt-3">
 
                   <span className="text-gray-500">
                     Ruolo
@@ -89,8 +80,7 @@ export default function DashboardAdmin({
 
                 </div>
 
-                {/* STATO */}
-                <div className="flex justify-between">
+                <div className="flex justify-between mt-2">
 
                   <span className="text-gray-500">
                     Stato
@@ -103,15 +93,12 @@ export default function DashboardAdmin({
                         : "text-red-500"
                     }`}
                   >
-                    {online
-                      ? "Online"
-                      : "Offline"}
+                    {online ? "Online" : "Offline"}
                   </span>
 
                 </div>
 
-                {/* CLIENTI */}
-                <div className="flex justify-between">
+                <div className="flex justify-between mt-2">
 
                   <span className="text-gray-500">
                     Clienti
@@ -123,24 +110,25 @@ export default function DashboardAdmin({
 
                 </div>
 
-                {/* ULTIMO ACCESSO */}
-                <div>
+                <div className="mt-3">
 
-                  <div className="text-gray-500 text-sm">
+                  <div className="text-gray-500 text-xs">
                     Ultimo accesso
                   </div>
 
-                  <div className="font-semibold mt-1">
-                    {agente.ultimoAccesso
-                      ?.toDate?.()
-                      .toLocaleString() || "—"}
+                  <div className="font-semibold">
+                    {
+                      agente.ultimoAccesso
+                        ?.toDate?.()
+                        ?.toLocaleString()
+                    }
                   </div>
 
                 </div>
 
               </div>
 
-            </div>
+            </details>
 
           );
 
