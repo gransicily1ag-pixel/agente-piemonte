@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { db, auth } from "./firebase/firebase";
 import DashboardAdmin from "./components/DashboardAdmin";
 import carIcon from "./assets/car.png";
+import L from "leaflet";
 import {
   doc,
   setDoc,
@@ -1054,10 +1055,12 @@ if (!utente) {
 {ruolo !== "admin" && posizioneLive && (
 
   <Marker
+    key={agente.id}
     position={[
-      posizioneLive.lat,
-      posizioneLive.lng
+      agente.posizione.lat,
+      agente.posizione.lng
     ]}
+    icon={iconaAgente}
   >
 
     <Popup>
@@ -1094,7 +1097,6 @@ if (!utente) {
       return (
 
         <Marker
-          icon={iconaAgente}
           key={agente.id}
           position={[
             agente.posizione.lat,
