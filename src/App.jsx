@@ -1,7 +1,8 @@
 import { useEffect, useMemo, useState } from "react";
 import { db, auth } from "./firebase/firebase";
 import DashboardAdmin from "./components/DashboardAdmin";
-import carIcon from "./assets/car.png";
+import carGreen from "./assets/car-green.png";
+import carRed from "./assets/car-red.png";
 import L from "leaflet";
 import {
   doc,
@@ -27,11 +28,22 @@ import {
   useMap
 } from "react-leaflet";
 
-const iconaAgente = new L.Icon({
-  iconUrl: carIcon,
+const iconaOnline = new L.Icon({
+
+  iconUrl: carGreen,
 
   iconSize: [45, 45],
   iconAnchor: [22, 22],
+
+});
+
+const iconaOffline = new L.Icon({
+
+  iconUrl: carRed,
+
+  iconSize: [45, 45],
+  iconAnchor: [22, 22],
+
 });
 
 function FollowMap({ posizione }) {
@@ -1059,14 +1071,50 @@ if (!utente) {
       posizioneLive.lat,
       posizioneLive.lng
     ]}
-    icon={iconaAgente}
+      
   >
 
     <Popup>
-      🚗 Sei qui
-    </Popup>
 
-  </Marker>
+    <div>
+
+      <div className="font-bold text-base">
+        🚗 {agente.nome}
+      </div>
+
+      <div className="text-sm text-gray-500">
+        {agente.email}
+      </div>
+
+      <div
+        className={`mt-2 text-sm font-bold ${
+          online
+            ? "text-green-600"
+            : "text-red-500"
+        }`}
+      >
+        {online
+          ? "Online realtime"
+          : "Offline"}
+      </div>
+
+      <div className="text-xs text-gray-500 mt-1">
+
+        Ultimo accesso:
+        {" "}
+        {
+          agente.ultimoAccesso
+            ?.toDate?.()
+            ?.toLocaleString()
+        }
+
+      </div>
+
+    </div>
+
+  </Popup>
+
+</Marker>
 
 )}
 
@@ -1083,8 +1131,6 @@ if (!utente) {
         ultimoAccesso &&
         Date.now() - ultimoAccesso.getTime()
           < 1000 * 60 * 2;
-
-      if (!online) return null;
       
       if (
         !agente.posizione?.lat ||
@@ -1101,7 +1147,11 @@ if (!utente) {
             agente.posizione.lat,
             agente.posizione.lng
           ]}
-          icon={iconaAgente}
+          icon={
+        online
+          ? iconaOnline
+          : iconaOffline
+      }
         >
 
                     <Popup>
