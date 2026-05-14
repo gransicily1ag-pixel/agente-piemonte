@@ -46,27 +46,7 @@ const iconaOffline = new L.Icon({
 
 });
 
-function FollowMap({ posizione }) {
 
-  const map = useMap();
-
-  useEffect(() => {
-
-    if (!posizione) return;
-
-    map.setView(
-      [posizione.lat, posizione.lng],
-      map.getZoom(),
-      {
-        animate: true
-      }
-    );
-
-  }, [posizione]);
-
-  return null;
-
-}
 
 export default function App() {
   const [search, setSearch] = useState("");
@@ -1374,7 +1354,7 @@ if (!utente) {
             attribution='&copy; OpenStreetMap'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
-          <FollowMap posizione={posizioneLive} />
+   
 
 {/* AGENTE NORMALE */}
 {ruolo !== "admin" && posizioneLive && (
@@ -1411,92 +1391,6 @@ if (!utente) {
 
 )}
 
-{/* ADMIN */}
-{ruolo === "admin" && (
-
-  <>
-
-    {agentiLive.map((agente) => {
-
-      const ultimoAccesso =
-        agente.ultimoAccesso?.toDate?.();
-
-      const online =
-        ultimoAccesso &&
-        Date.now() - ultimoAccesso.getTime()
-          < 1000 * 60 * 2;
-
-      if (
-        !agente.posizione?.lat ||
-        !agente.posizione?.lng
-      ) {
-        return null;
-      }
-
-      return (
-
-        <Marker
-          key={agente.id}
-          position={[
-            agente.posizione.lat,
-            agente.posizione.lng
-          ]}
-          icon={
-            online
-              ? iconaOnline
-              : iconaOffline
-          }
-        >
-
-          <Popup>
-
-            <div>
-
-              <div className="font-bold text-base">
-                🚗 {agente.nome}
-              </div>
-
-              <div className="text-sm text-gray-500">
-                {agente.email}
-              </div>
-
-              <div
-                className={`mt-2 text-sm font-bold ${
-                  online
-                    ? "text-green-600"
-                    : "text-red-500"
-                }`}
-              >
-                {online
-                  ? "Online realtime"
-                  : "Offline"}
-              </div>
-
-              <div className="text-xs text-gray-500 mt-1">
-
-                Ultimo accesso:
-                {" "}
-                {
-                  agente.ultimoAccesso
-                    ?.toDate?.()
-                    ?.toLocaleString()
-                }
-
-              </div>
-
-            </div>
-
-          </Popup>
-
-        </Marker>
-
-      );
-
-    })}
-
-  </>
-
-)}
 
 {/* ADMIN */}
 {ruolo === "admin" && (
